@@ -92,7 +92,7 @@ li{list-style: none;}
     text-align: center;
     }
 
-#gnb .d1li:hover .d2ul {
+#gnb:hover .d2ul {
     height: 180px;
 } 
 .d2ul a{color: white;}
