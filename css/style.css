@@ -89,12 +89,22 @@ li{list-style: none;}
     left: 0; right: 0;
     top: 100%;
     min-width: 120px;
-    text-align: center;
+    text-align: center;  
     }
 
 #gnb:hover .d2ul {
     height: 180px;
+    z-index: 9999;
 } 
+#gnb:after{content: '';
+    position: absolute;
+    background-color: green;
+    top: 100px; left: 0; right: 0;
+    height: 0px; transition: height 0.5s;}
+#gnb:hover:after{
+    height: 180px;
+}
+
 .d2ul a{color: white;}
 .d2ul li:hover{background-color: white;}
 .d2ul li:hover a {color: black;}
