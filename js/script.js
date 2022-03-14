@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
   var px = $("#slider").height() //1200px 위로갈땐 height 좌우 width
