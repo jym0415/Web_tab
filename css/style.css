@@ -22,6 +22,8 @@ li{list-style: none;}
 .d-none{
     display: none;
 }
+.ofh{overflow: hidden;}
+
 .b-top{
     border-top:2px solid black ;
 }
@@ -109,3 +111,8 @@ li{list-style: none;}
 .d2ul li:hover{background-color: white;}
 .d2ul li:hover a {color: black;}
 
+/*슬라이드*/
+
+/* #slider ul {
+    width: 100000px;
+} */
