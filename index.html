@@ -10,59 +10,98 @@
   
 </head>
 <body>
-    <header class="rel h100 b-bottom container m-auto d-flex justify-between" id="hd">
-      <h1><a href="#"><img src="img/logo.png" alt="로고"></a></h1>
-      <ul id="gnb" class="d-flex align-center">
-          <li class="rel d1li">
-              <a href="" class="d-block d1a">대메뉴</a>
-              <ul class="abs d2ul">
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">찾아오시는길</a></li>
-              </ul>
-          </li>
-          <li class="rel d1li">
-              <a href="" class="d-block d1a">비젼</a>
-              <ul class="abs d2ul">
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">소메뉴</a></li>
-              </ul>
-          </li>
-          <li class="rel d1li">
-              <a href="" class="d-block d1a">대메뉴</a>
-              <ul class="abs d2ul">
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">소메뉴소메뉴소소</a></li>
-              </ul>
-          </li>
-          <li class="rel d1li">
-              <a href="" class="d-block d1a">대메뉴메뉴대대대메뉴</a>
-              <ul class="abs d2ul">
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">소메뉴</a></li>
-                  <li><a href="">소메뉴</a></li>
-              </ul>
-          </li>
-      </ul>
-    </header>
-    <div class="container h300 m-auto ofh rel" id="slider">
-        <ul class="">
-            <li class="abs show"><a href="http://www.naver.com"><img src="img/images_1.jpg" alt=""></a></li>
-            <li class="abs"><a href="http://www.daum.net"></a><img src="img/images_2.jpg" alt=""></a></li>
-            <li class="abs "><img src="img/images_3.jpg" alt=""></li>
-        </ul>
-    </div>
-    <div class="container m-auto h200" id="mainContent"></div>
-    <footer class="container m-auto h100 b-top">
+    <div class="wrap rel"> <!--가장바깥쪽 rel 모달팝업해야됨-->
 
-    </footer>
+        <header class="rel h100 b-bottom container m-auto d-flex justify-between" id="hd">
+            <h1><a href="#"><img src="img/logo.png" alt="로고"></a></h1>
+            <ul id="gnb" class="d-flex align-center">
+                <li class="rel d1li">
+                    <a href="#none" class="d-block d1a">대메뉴</a>
+                    <ul class="abs d2ul">
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">찾아오시는길</a></li>
+                    </ul>
+                </li>
+                <li class="rel d1li">
+                    <a href="#none" class="d-block d1a">비젼</a>
+                    <ul class="abs d2ul">
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">소메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="rel d1li">
+                    <a href="#none" class="d-block d1a">대메뉴</a>
+                    <ul class="abs d2ul">
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">소메뉴소메뉴소소</a></li>
+                    </ul>
+                </li>
+                <li class="rel d1li">
+                    <a href="#none" class="d-block d1a">대메뉴메뉴대대대메뉴</a>
+                    <ul class="abs d2ul">
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">소메뉴</a></li>
+                        <li><a href="#none">소메뉴</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </header>
+          <div class="container h300 m-auto ofh rel" id="slider">
+              <ul class="">
+                  <li class="abs show"><a href="http://www.naver.com"><img src="img/images_1.jpg" alt=""></a></li>
+                  <li class="abs"><a href="http://www.daum.net"></a><img src="img/images_2.jpg" alt=""></a></li>
+                  <li class="abs "><img src="img/images_3.jpg" alt=""></li>
+              </ul>
+          </div>
+          <div class="container m-auto h200 d-flex" id="mainContent">
+              <div class="tabs rel d-flex">
+                  <div class="notice on">
+                      <h3>공지사항</h3>
+                      <ul class="abs w-100 flex-vertical">
+                          <li id="popuptriggler"><a href="#none">공지</a></li>
+                          <li><a href="#none">공지</a></li>
+                          <li><a href="#none">소메뉴</a></li>
+                          <li><a href="#none">소메뉴</a></li>
+                          <li><a href="#none">찾아오시는길</a></li>
+                      </div>
+                  </li>
+                  <div class="gallery">
+                      <h3>갤러리</h3>
+                      <ul class="abs d-flex w-100">
+                          <li><a href="#none"><img src="" alt="이미지1" srcset=""></a></li>
+                          <li><a href="#none"><img src="" alt="이미지2" srcset=""></a></li>
+                          <li><a href="#none"><img src="" alt="이미지3" srcset=""></a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="banner1">
+                  <a href="#none">이미지 넣기</a>
+              </div>
+              <div class="banner2">
+                  <a href="#none">이미지 넣기</a>
+              </div>
+      
+          </div>
+      
+          <footer class="container m-auto h100 b-top">
+      
+          </footer>
+
+          <div id="modal" class="abs d-none">
+              <p>글씨글씨글씨글씨</p>
+              <button>닫기</button>
+        
+          </div>
+    </div>
+   
     
     <!-- <script src="./js/script.js"></script> -->
-    <script src="./js/scriptfade.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

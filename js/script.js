@@ -15,4 +15,10 @@ $(document).ready(function(){
     });
   },3000);
 
+  $('.tabs h3').click(function(){
+
+    $('.tabs > div').removeClass('on');
+    $(this).parent().addClass('on');
+  });
+
 })
